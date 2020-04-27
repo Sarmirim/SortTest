@@ -38,10 +38,12 @@ function quickSort(array, left, right) {
 const array = [0, -1000, 0, -1, 4, 45334, -2, 0,-843.2, 89, 42, 23, 18, 45333, 0, 89, 42, 23, 18, 45335, 432.1023, 1023];
 const array2 = [-100, 0, 100, 0];
 
-console.log(array);
+console.log("Array #1 = " + array);
 let sortedArray = quickSort(array, 0, array.length - 1);
-console.table(sortedArray);
+console.log("After sort = " + sortedArray);
+//console.table(sortedArray);
 
-console.log(array2);
+console.log("Array #2 = " + array2);
 let sortedArray2 = quickSort(array2, 0, array2.length - 1);
-console.table(sortedArray2);
+console.log("After sort = " + sortedArray2);
+//console.table(sortedArray2);
